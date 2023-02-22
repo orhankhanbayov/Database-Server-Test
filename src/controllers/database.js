@@ -1,3 +1,9 @@
 const DatabaseController = {
-  Set: async (req, res) => {},
+  Set: (req, res) => {
+    object = req.query;
+    res.send('okay');
+    res.status(200);
+  },
 };
+
+module.exports = DatabaseController;

@@ -1,6 +1,7 @@
-const DatabaseController = require('../../src/controllers/database');
+const express = require('express');
 const router = express.Router();
+const DatabaseController = require('../controllers/database');
 
-router.put('/set', DatabaseController.set);
+router.put('/', DatabaseController.Set);
 
 module.exports = router;
