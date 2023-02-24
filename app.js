@@ -1,7 +1,6 @@
 const express = require('express');
 
 const app = express();
-const object = {};
 
 const databaseRouter = require('./src/routes/databaseRoute');
 
